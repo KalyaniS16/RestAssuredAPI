@@ -96,6 +96,7 @@ public class httprequests {
         System.out.println("PUT Request successful!");
         System.out.println("Status Code: " + response.getStatusCode());
         System.out.println("Response: " + response.asString());
+        System.out.println("PUT Request completed!");
 
         Assert.assertEquals(response.getStatusCode(), 200, "PUT request should return 200 OK");
     }
