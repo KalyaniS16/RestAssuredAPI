@@ -33,6 +33,7 @@ public class AppTest {
                 .response();
 
         System.out.println(response.asString());
+        System.out.println("Status Code: " + response.getStatusCode());
     }
 
     @Test
